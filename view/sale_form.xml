@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of sale_confirmed2quotation module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath
+        expr="/form/notebook/page[@id=&quot;sale&quot;]/group[@id=&quot;amount_buttons&quot;]/group[@id=&quot;buttons&quot;]/button[@name=&quot;process&quot;]"
+        position="before">
+        <newline/>
+        <button name="to_quote" string="Quote" icon="tryton-go-previous"/>
+    </xpath>
+</data>
