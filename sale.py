@@ -4,12 +4,12 @@
 from trytond.model import Workflow, ModelView
 from trytond.pool import PoolMeta
 from trytond.pyson import Eval
+
 __all__ = ['Sale']
 __metaclass__ = PoolMeta
 
 
 class Sale:
-    'Sale'
     __name__ = 'sale.sale'
 
     @classmethod
