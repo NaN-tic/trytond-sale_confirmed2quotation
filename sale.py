@@ -20,6 +20,7 @@ class Sale(metaclass=PoolMeta):
         cls._buttons.update({
                 'to_quote': {
                     'invisible': Eval('state') != 'confirmed',
+                    'icon': 'tryton-back',
                     },
                 })
 
