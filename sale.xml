@@ -14,7 +14,7 @@ copyright notices and license terms. -->
         <record model="ir.model.button" id="sale_to_quote_button">
             <field name="name">to_quote</field>
             <field name="string">Quote</field>
-            <field name="model" search="[('model', '=', 'sale.sale')]"/>
+            <field name="model">sale.sale</field>
         </record>
 
     </data>
