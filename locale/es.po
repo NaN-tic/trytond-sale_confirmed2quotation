@@ -1,6 +1,10 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:ir.model.button,string:sale_to_quote_button"
+msgid "Quote"
+msgstr "Presupuesto"
 
 msgctxt "view:sale.sale:"
 msgid "Quote"
